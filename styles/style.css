@@ -1,0 +1,54 @@
+/* Глобалные стили */
+.body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Gilroy-Light", sans-serif;
+  font-weight: 300;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  color: #f7941e;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: 20px 45px;
+  line-height: 24px;
+}
+
+.logo {
+  display: inline-block;
+  width: 41px;
+  height: 39px;
+}
+
+/* Стили для header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 21px;
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header__button {
+  padding: 14px 24px;
+  line-height: 21px;
+}
