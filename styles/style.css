@@ -20,6 +20,13 @@
   text-transform: uppercase;
   padding: 20px 45px;
   line-height: 24px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f7941e;
+  border-color: transparent;
+  color: #fff;
 }
 
 .logo {
@@ -34,6 +41,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 35px 0;
+}
+
+.logo_place_header {
+  margin-left: 80px;
 }
 
 .header__nav-list {
@@ -51,4 +62,56 @@
 .header__button {
   padding: 14px 24px;
   line-height: 21px;
+  margin-right: 35px;
+}
+
+/* Секция about */
+.about {
+  background-color: #f1f1f2;
+}
+
+.about__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__item_flex_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about__item-info {
+  margin: 0 auto;
+}
+
+.about__item-title {
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 45px;
+}
+
+.about__item-title_h1 {
+  line-height: 69px;
+  font-size: 56px;
+  font-weight: 600;
+  max-width: 433px;
+}
+
+.about__item-text {
+  margin: 0;
+  max-width: 422px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.about__item-image {
+  display: block;
 }
