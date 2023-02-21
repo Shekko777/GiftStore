@@ -7,10 +7,16 @@
   font-weight: 300;
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .link {
   text-decoration: none;
   color: #000;
   transition: color 0.2s;
+  display: inline-block;
 }
 
 .link:hover {
@@ -38,6 +44,21 @@
   display: inline-block;
   width: 41px;
   height: 39px;
+}
+
+.title {
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 45px;
+  mask-border: 25px;
+  text-align: center;
+}
+
+.subtitle {
+  line-height: 24px;
+  font-style: 18px;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 /* Стили для header */
@@ -97,9 +118,7 @@
 }
 
 .about__item-title {
-  margin: 0;
-  font-weight: normal;
-  margin-bottom: 45px;
+  text-align: start;
 }
 
 .about__item-title_h1 {
@@ -119,4 +138,95 @@
 
 .about__item-image {
   display: block;
+}
+
+/* Ocasions */
+.ocasions {
+  padding-top: 100px;
+}
+
+.ocasions__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 140px;
+}
+
+.ocasions__item {
+  background-color: #fafafa;
+  transition: box-shadow 0.2s, background-color 0.2s;
+}
+
+.ocasions__item:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.ocasions__item-img {
+  width: 270px;
+  height: 270px;
+  margin-bottom: 24px;
+}
+
+.ocasions__item-title {
+  margin: 0;
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 75px;
+  margin-left: 24px;
+}
+
+.ocasions__item-link {
+  margin: 0 0 24px 24px;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+/* Started */
+.started {
+  padding: 80px 0 70px;
+  background-color: #f7941e;
+}
+
+.started__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.started__button {
+  padding: 14px 25px;
+  background-color: #231f20;
+  border-radius: 5px;
+  color: #231f20;
+  background-color: transparent;
+  font-style: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.started__button:not(:last-child) {
+  margin-right: 16px;
+}
+
+.started__button:hover {
+  background-color: #231f20;
+  color: #fff;
+  border-color: transparent;
+}
+.started__title {
+  font-size: 32px;
+  line-height: 45px;
+  margin: 0;
+}
+
+.started__text {
+  font-size: 32px;
+  line-height: 45px;
+  margin: 0;
 }
