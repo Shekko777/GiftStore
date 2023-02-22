@@ -51,13 +51,12 @@
   margin: 0;
   font-weight: normal;
   margin-bottom: 45px;
-  mask-border: 25px;
   text-align: center;
 }
 
 .subtitle {
   line-height: 24px;
-  font-style: 18px;
+  font-size: 18px;
   text-align: center;
   margin-bottom: 70px;
 }
@@ -205,7 +204,7 @@
   border-radius: 5px;
   color: #231f20;
   background-color: transparent;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   transition: background-color 0.2s, color 0.2s, border-color 0.2s;
@@ -309,4 +308,17 @@
 
 .blogs__text {
   margin: 0 0 45px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 80px;
+  list-style: none;
 }
