@@ -230,3 +230,8 @@
   line-height: 45px;
   margin: 0;
 }
+
+/* Секция blogs */
+.blogs {
+  padding: 80px 0 88px;
+}
