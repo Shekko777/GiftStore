@@ -3,7 +3,7 @@
   max-width: 1440px;
   margin: 0 auto;
   font-size: 18px;
-  font-family: "Gilroy-Light", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
   font-weight: 300;
 }
 
@@ -122,9 +122,9 @@
 }
 
 .about__item-title_h1 {
+  font-family: "Gilroy-Semibold", sans-serif;
   line-height: 69px;
   font-size: 56px;
-  font-weight: 600;
   max-width: 433px;
 }
 
@@ -184,6 +184,7 @@
 }
 
 .ocasions__item-link {
+  font-family: "Roboto-Regular", sans-serif;
   margin: 0 0 24px 24px;
   font-size: 14px;
   line-height: 19px;
@@ -224,6 +225,7 @@
   border-color: transparent;
 }
 .started__title {
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 32px;
   line-height: 45px;
   margin: 0;
@@ -306,6 +308,7 @@
 }
 
 .blogs__title {
+  font-family: "Gilroy-Bold", sans-serif;
   line-height: 33px;
   font-size: 24px;
   margin: 0 0 16px;
@@ -332,6 +335,7 @@
 }
 
 .nav__list {
+  font-family: "Gilroy-Bold", sans-serif;
   display: flex;
   align-items: center;
   gap: 80px;
@@ -339,7 +343,6 @@
   padding: 0 180px 43px;
   margin: 0 0 55px;
   border-bottom: 1px solid #000;
-  font-weight: 600;
 }
 
 .footer__logo {
